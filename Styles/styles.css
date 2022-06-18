@@ -1,0 +1,74 @@
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+* {
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+/* .container {
+    display: block;
+    border-bottom-width: 1px; 
+    border-bottom-color: #ECECEC;
+    width: 1600px;
+    margin: auto;
+    background-color: #FFF;
+} */
+
+.navbar {
+    display: inline-block;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ECECEC;
+}
+
+#Logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+header a:hover {
+    color: #2196F3;
+}
+
+.nav-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
